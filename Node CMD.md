@@ -23,13 +23,13 @@ mkdir download_cache
 # Sign-up With Command
 
 ```
-./pop --signup-by-referral-route fda01c7aa9454680
+./pop --signup-by-referral-route 636f2517124b052d
 ```
 
 # Start The Node
 
 ```
-sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
+sudo ./pop --ram 8 --max-disk 200 --cache-dir /data --pubKey <KEY>
 ```
 🚩 Note: Put your `ram` , `disk` & `pubkey` with your actual Information.Retrieve the public key from your Solana wallet (e.g., Phantom, Backpack) & Replace in `<KEY>` by Solana Address
 
@@ -90,4 +90,4 @@ sudo fuser -k 8003/tcp
 ```
 
 # Thank you for Visiting
-
+# by ezmentor
